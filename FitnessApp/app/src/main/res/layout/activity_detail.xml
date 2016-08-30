@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sahil.fitnessapp.DetailActivity"
+    android:background="#2a93e2"
+    android:id="@+id/mainBG">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Weight Lifting"
+        android:id="@+id/exerciseText"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exerciseImage"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/weight" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#40000000"
+        android:id="@+id/exerciseLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mark It Complete!"
+            android:id="@+id/textView15"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complete Set 1"
+            android:id="@+id/checkBox"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:paddingLeft="120dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complete Set 2"
+            android:id="@+id/checkBox2"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:paddingLeft="120dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complete Set 3"
+            android:id="@+id/checkBox3"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:paddingLeft="120dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complete Set 4"
+            android:id="@+id/checkBox5"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:paddingLeft="120dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complete Set 5"
+            android:id="@+id/checkBox6"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:paddingLeft="120dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
