@@ -1,0 +1,127 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sahil.superheropower.Fragments.BackStoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/hero_bg_gradient">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SUPERMAN"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#eedf14"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="BACKSTORY"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:paddingTop="0dp"
+            android:textColor="#FFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:background="@drawable/big_superman_logo"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="All the civilizations and races of Krypton perished in the explosion and became a new asteroid belt, except for one survivor: the baby Kal-El who was placed in an escape rocket by his father, Jor-El, and sent to the planet Earth, where he grew up to become Superman."
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="PRIMARY POWER"
+            android:id="@+id/textView5"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Flight"
+            android:id="@+id/primaryBtn"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_button"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#f1e61f"
+            android:drawableLeft="@drawable/super_man_crest"
+            android:paddingLeft="10dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SECONDARY POWER"
+            android:id="@+id/textView6"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="LIGHTNING"
+            android:id="@+id/secondaryBtn"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_button"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#f1e61f"
+            android:drawableLeft="@drawable/lightning"
+            android:paddingLeft="10dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="START OVER"
+            android:id="@+id/startOverBtn"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_button"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#3c3e5a"
+            android:paddingLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#e1da1c" />
+    </LinearLayout>
+</FrameLayout>
